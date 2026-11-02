@@ -1,11 +1,11 @@
-# autoperceive_jd303
+# hybrid_retrieval_weights_signature_match
 
 **给自动驾驶感知工程师·混合检索的权重调节算一个特征指纹并定位可疑片段。**
 
-`autoperceive_jd303` —— 通过字符级与结构级特征识别自动驾驶感知工程师·混合检索的权重调节的痕迹，给出密度与命中位置
+`hybrid_retrieval_weights_signature_match` —— 通过字符级与结构级特征识别自动驾驶感知工程师·混合检索的权重调节的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoperceive_jd303.py` 拷走就能用
+- 单文件，`hybrid_retrieval_weights_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install marcelorei-autoperceive_jd303
+pip install marcelorei-hybrid_retrieval_weights_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoperceive_jd303 --help
+hybrid_retrieval_weights_signature_match --help
 ```
 
-也可以不用安装，直接把 `autoperceive_jd303.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `hybrid_retrieval_weights_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoperceive_jd303 --help
 ## 用法
 
 ```bash
-python autoperceive_jd303.py --file input.txt
-python autoperceive_jd303.py --text "示例内容"
-python autoperceive_jd303.py --file input.txt --json
+python hybrid_retrieval_weights_signature_match.py --file input.txt
+python hybrid_retrieval_weights_signature_match.py --text "示例内容"
+python hybrid_retrieval_weights_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoperceive_jd303.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoperceive_jd303.py
+python test_hybrid_retrieval_weights_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoperceive_jd303.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/marcelorei/autoperceive_jd303>
+- GitHub 仓库：<https://github.com/marcelorei/hybrid_retrieval_weights_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoperceive_jd303.py
 marcelorei 做自动驾驶感知工程师·混合检索的权重调节相关的问题，方向对标京东的架构自动驾驶感知工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://marcelorei.github.io>
-- 仓库：<https://github.com/marcelorei/autoperceive_jd303>
+- 仓库：<https://github.com/marcelorei/hybrid_retrieval_weights_signature_match>
 
 ## 许可
 

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "marcelorei-autoperceive_jd303"
+name = "marcelorei-hybrid_retrieval_weights_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别自动驾驶感知工程师·混合检索的权重调节的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://marcelorei.github.io"
-Repository = "https://github.com/marcelorei/autoperceive_jd303"
-Issues = "https://github.com/marcelorei/autoperceive_jd303/issues"
+Repository = "https://github.com/marcelorei/hybrid_retrieval_weights_signature_match"
+Issues = "https://github.com/marcelorei/hybrid_retrieval_weights_signature_match/issues"
 
 [project.scripts]
-autoperceive_jd303 = "autoperceive_jd303:main"
+hybrid_retrieval_weights_signature_match = "hybrid_retrieval_weights_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd303"]
+py-modules = ["hybrid_retrieval_weights_signature_match"]
